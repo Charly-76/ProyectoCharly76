@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Curriculum Vitale</title>
+  <link rel="stylesheet" href="estilose.css">
+</head>
+<body>
+  <div class="contenedor-header">
+      <header>
+      <div class="logo">
+        <a href="#">MAXIMO</a>
+      </div>
+      <nav id="nav">
+          <ul>
+           <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+           <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI </a></li>
+           <li><a href="#habilidades"onclick="seleccionar()">HABILIDAD</a></li>
+           <li><a href="#datos"onclick="seleccionar()">INFORMACIóN PERSONAL</a></li>
+           <li><a href="#referencia"onclick="seleccionar()">REFERENCIA</a></li>
+          </ul>
+     </nav>
+             <div class="nav-responsive"onclick="mostrarOcultarMenu()">
+             <i class="fa-solid fa-bars"></i>
+     </div>
+      </header>
+  </div> 
+  <!--inicio-->
+  <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="imagenes/71.jpg" alt="" >
+        </div>
+        <h1>MAXIMO DIEGO MANCUSOS</h1>
+        <h2>Tecnico en Refrigeracion</h2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+       </div>
+  </section>
+  <!--sobre mi-->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+         <h2>Sobre Mí</h2>
+         <p><span>Hola, soy Maximo Diego Mancusos.</span>Vengo de una familia trabajadora, me gusta capacitarme lo mas que puedo y tambien viajar cuando el tiempo de lo dispone siempre evolucionando con las nuevas tecnologias.</p>
+         
+         <div class="fila">
+                 <!--datos -->
+              <div class="col">
+                   <h3>Datos Personales</h3>
+                  <ul>
+                      <li>
+                       <strong>Fecha de Nacimiento:</strong>
+                       11-05-1994
+                      </li>
+                      <li>
+                        <strong>Lugar de Nacimiento:</strong>
+                         Mina Clavero-Cordoba
+                      </li>
+                      <li>
+                        <strong>Nacionalidad:</strong>
+                         Argentino
+                      </li>
+                      <li>
+                         <strong>Estado Civil:</strong>
+                         Soltero
+                      </li>
+                      <li>
+                         <strong>Dni:</strong>
+                         99.999.999
+                      </li>
+                      <li>
+                         <strong>N° de Contacto:</strong>
+                         +54-9-3581-48-1111
+                      </li>
+                      <li>
+                         <strong>Email:</strong>
+                         MDM@Gmail.com
+                      </li>
+                      <li>
+                         <strong>Webstile:</strong>
+                         www.example.com
+                      </li>
+                      <li>
+                         <strong>Dirección:</strong>
+                        calle AV San Martin N°832
+                      </li>
+                      <li>
+                         <strong>Cargo:</strong>
+                         <span>Encargado de local</span>
+                      </li>
+                  </ul>
+             </div>
+
+                  <!--intereses-->
+             <div class="col">
+               <h3>Intereses</h3>
+               <div class="contenedor-intereses">
+                   <div class="interes">
+                      <i class="fa-solid fa-futbol"></i>
+                      <span>DEPORTES</span>
+                   </div>
+                   <div class="interes">
+                      <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                      <span>DEPORTES</span>
+                   </div>
+                   <div class="interes">
+                      <i class="fa-solid fa-book"></i>
+                      <span>LEER</span>
+                   </div>
+                   <div class="interes">
+                     <i class="fa-solid fa-plane-departure"></i>
+                     <span>VIAJAR</span>
+                   </div>
+                   <div class="interes">
+                     <i class="fa-solid fa-mountain-sun"></i>
+                     <span>CONOCER LUGARES</span>
+                   </div>
+                   <div class="interes">
+                     <i class="fa-solid fa-car"></i>
+                     <span>AUTOS</span>
+                   </div>
+                   <div class="interes">
+                     <i class="fa-solid fa-camera"></i>
+                     <span>FOTOS</span>
+                   </div>
+                   <div class="interes">
+                     <i class="fa-solid fa-music"></i>
+                     <span>MUSICA</span>
+                   </div>
+               </div>
+         </div>
+      </div>
+         <button>
+               Descargar CV <i class="fa-solid fa-download"></i>
+               <span class="overlay"></span>
+         </button>
+      </div>
+  </section>
+     <!--seccion-->
+  <section class="habilidades" id="habilidades">
+      <div class="contenido-seccion">
+          <h2>Habilidades</h2>
+         <div class="fila">
+               <!--habilidades-->
+            <div class="col">
+                 <h3>Habilidades Técnicas</h3>
+                 <div class="habilidad">
+                     <span>Javascript</span>
+                     <div class="barra-habilidad">
+                         <div class="progreso javascript">
+                              <span>85%</span>
+                         </div>
+                     </div>
+                  </div>
+                   <div class="habilidad">
+                      <span>HTNL & CSS</span>
+                      <div class="barra-habilidad">
+                          <div class="progreso HTNL & CSS">
+                               <span>90%</span>
+                         </div>
+                     </div>
+                 </div> 
+                  <div class="habilidad">
+                     <span>Photoshop</span>
+                     <div class="barra-habilidad">
+                         <div class="progreso">
+                             <span>40%</span>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="habilidad">
+                     <span>MicrosoftOffice</span>
+                     <div class="barra-habilidad">
+                          <div class="progreso">
+                               <span>65%</span>
+                          </div>
+                     </div>
+                 </div>
+                 <div class="habilidad">
+                       <span>SoundForgePro</span>
+                       <div class="barra-habilidad">
+                            <div class="progreso">
+                               <span>55%</span>
+                          </div>
+                      </div>
+                 </div>
+             </div>
+               <!--Idiomas-->
+             <div class="col">
+                  <h3>Idiomas</h3>
+                      <div class="habilidad">
+                         <span>Ingles</span>
+                          <div class="barra-habilidad">
+                               <div class="progreso">
+                                  <span>85%</span>
+                              </div>
+                          </div>
+                     </div>
+                     <div class="habilidad">
+                         <span>Italiano</span>
+                                <div class="barra-habilidad">
+                                      <div class="progreso">
+                                         <span>40%</span>
+                                      </div>
+                                 </div>
+                     </div> 
+                     <div class="habilidad">
+                         <span>Portugués</span>
+                            <div class="barra-habilidad">
+                                 <div class="progreso">
+                                      <span>40%</span>
+                                 </div>
+                          </div>
+                      </div>
+                      <div class="habilidad">
+                           <span>Noruego</span>
+                               <div class="barra-habilidad">
+                                   <div class="progreso">
+                                         <span>40%</span>
+                                  </div>
+                             </div>
+                      </div>
+                      <div class="habilidad">
+                             <span>Frances</span>
+                                 <div class="barra-habilidad">
+                                     <div class="progreso">
+                                           <span>55%</span>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+      </div>
+  </section>
+    <!--datos-->
+    <section id="datos" class="datos">
+      <div class="contenido-seccion">
+          <h2>Datos</h2>
+          <div class="fila">
+              <div class="col izquierda">
+                  <h3>Educación</h3>
+                  <div class="item izq">
+                      <h4>Nivel primario</h4>
+                      <span class="casa">Escuela publica N°832</span>
+                      <div class="conectori">
+                          <div class="circuloi">
+                          </div>
+                      </div>
+                      <div class="item izq">
+                             <h4>Nivel Secundario completo</h4>
+                             <span class="casa">Escuela tecnica Domingo Faustino Sarmiento</span>
+                             <p>Técnico Mayor de Obra con orientacion en electricidad</p>
+                                   <div class="conectori">
+                                        <div class="circuloi">
+                                        </div>
+                                    </div>
+                      </div>
+                                <div class="item izq">
+                                        <h4>Nivel Terciario</h4>
+                                        <span class="casa">Universidad Tecnológica Nacional</span>
+                                        <p>Complemento en practicas Eléctricas</p>
+                                                <div class="conectori">
+                                                         <div class="circuloi">
+                                                         </div>
+                                                </div>
+                                </div>
+                       <div class="item izq">
+                                <h4>Cursos Realizados</h4>
+                                <span class="casa">Universidad de Vicente Lopez</span>
+                                <p>Técnico en refrigeracion</p>
+                                      <div class="conectori">
+                                           <div class="circuloi">
+                                           </div>
+                                     </div>
+                       </div>
+                       <div class="item izq">
+                                  <h4>Cursos Realizados</h4>
+                                  <span class="casa">Universidad de Vicente Lopez</span>
+                                  <p>Tecnicatura en Plomeria y Gasista Matriculado</p>
+                                         <div class="conectori">
+                                             <div class="circuloi">
+                                             </div>
+                                         </div>
+                       </div>
+                  </div>
+               </div>
+           </div>
+         </div>
+       </div>
+  </section>
+
+   <!--referencia-->
+    <section id="referencia" class="referencia">
+      <div class="contenido-seccion">
+          <h2>REFERENCIA</h2>
+          <div class="fila">
+              <div class="col izquierda">
+                  <h3>Referencias</h3>
+                  <div class="col derecha">
+                      <h3>Laborales</h3>
+                      <div class="item der">
+                          <h4>Repositor en supermercado mayorista</h4>
+                          <span class="casa">Supermercado Maicon</span>
+                          <p>Referencias Laboral : 3584-35-7643 Recursos humanos</p>
+                          <div class="conectord">
+                              <div class="circulod">
+                              </div>
+                          </div>
+                      <div class="item der">
+                          <h4>Atencion al cliente en ramos generales</h4>
+                          <span class="casa">Manuel S Pavon</span>
+                          <p>N° de referencia 3584-35-0976</p>
+                          <div class="conectord">
+                              <div class="circulod">
+                             </div>
+                         </div>
+                      </div>
+                      <div class="item der">
+                          <h4>Instalador de equipos de Aire acondicionados</h4>
+                          <span class="casa">Claudio Cabral</span>
+                          <p>N° de referencia 3584-35-1314</p>
+                              <div class="conectord">
+                                     <div class="circulod">
+                                     </div>
+                              </div>
+                      </div>
+               </div>
+           </div>
+         </div>
+     </div>
+    </section>
+ </section>
+
+ <!--footer-->
+      <footer>
+          <a href="#inicio" class="arriba">
+               <i class="fa-solid fa-angles-up"></i>
+          </a>
+          <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+      </footer>
+      <script>scr="script.js"</script>
+      
+</body>
+  </html>
